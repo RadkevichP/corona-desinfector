@@ -1,0 +1,55 @@
+
+##Intellij project files
+.idea/
+*.iml
+##Intellij File-based project format:
+*.ipr
+*.iws
+*.DS_Store
+
+## NetBeans project files
+nbproject/
+
+## Eclipse project files
+.settings/
+
+##Maven Files
+pom.xml.bak
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.branch
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+## All the maven target directories could be ignored with the following:
+target/
+
+## Some temp directory from FI?
+croptracker-external-integration-api-web/null/
+
+dev/src/main/resources/docker-compose/postgres/data
+
+######################
+# NodeJS
+######################
+package-lock.json
+node_modules/
+.sass-cache/
+
+######################
+# Local files
+######################
+*local*.properties
+*.local*.yml
+*.local*.yaml
+*.local*.json
+*.log
+*.version
+*.tmp
+.m2/
+.java-version
